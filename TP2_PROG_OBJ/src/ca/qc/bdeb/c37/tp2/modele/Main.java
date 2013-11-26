@@ -4,7 +4,11 @@
  * and open the template in the editor.
  */
 
-package ca.qc.bdeb.c37.tp2;
+package ca.qc.bdeb.c37.tp2.modele;
+
+import ca.qc.bdeb.c37.tp2.vue.Fenetre;
+import static java.lang.Thread.sleep;
+
 
 /**
  *
@@ -16,7 +20,8 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //hi
+        Fenetre fenetre=new Fenetre();
+        
     }
     
 }
